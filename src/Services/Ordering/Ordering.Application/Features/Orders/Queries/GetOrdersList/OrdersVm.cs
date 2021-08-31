@@ -1,13 +1,6 @@
-﻿using Ordering.Domain.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ordering.Domain.Entities
+﻿namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
 {
-    public class Order : EntityBase
+    public class OrdersVm
     {
         public string UserName { get; set; }
         public decimal TotalPrice { get; set; }
